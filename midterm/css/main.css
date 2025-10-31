@@ -1,0 +1,137 @@
+/* This is a header style */
+
+.container {
+  position: relative;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+img { 
+  width: 800px;
+  height: 200px;
+}
+
+/* This is a navbar style */
+
+
+nav ul{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* centers the nav items */
+  gap: 200px; /* adds space between items */
+}
+
+ nav  ul li a {
+  display: block;
+  color: hsl(0, 0%, 0%);
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid ;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+ nav  ul li a:hover {
+  background-color: lab(74.76% -49.55 5.68 / 0.84);
+}
+
+/* This is a article style */
+.butterfly {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.life {
+  padding: 10px;
+  font-size: medium;
+  font-size: x-large;
+
+}
+
+/* This is a Facts style */
+.facts {
+  clear: both;
+  padding-top: 20px;
+}
+
+.about {
+  font-size: large;
+  padding: 5px;
+}
+
+/* This is a form style */
+
+.contact-form {
+  border: 1px solid #000000;
+  padding: 10px;
+  width: 96%;
+  margin: 10px auto;
+  font-size: 12px;
+}
+
+.contact {
+  
+  padding: 5px;
+  max-width: 800px;
+  font-size: medium;
+}
+
+input[type="text"] {
+  width: 99%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  width: 99%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+textarea {
+   width: 100%;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.horizontal-options {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.question-group {
+  margin-top: 20px;
+}
+
+/* This is a wrapper style */
+.wrapper { width: 800px; height: 3fr; margin: 0 auto; background-color: hsl(0, 75%, 72%) }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lch(34.46% 52.51 30.76 / 0.808);
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+
+/* This is a footer style */
+
+.footer {
+  text-align: right;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 0.9em;
+  color: #000000;
+}
