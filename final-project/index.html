@@ -1,169 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Three Star Media</title>
-  
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Three Star Media</title>
+  </head>
+  <body>
+    <!-- This is a header with top navigation -->
+    <header class="container-topnav">
+      <div class="topnav">
+        <img src="./images/logo.png" alt="Three Star Media Logo" />
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
 
-  <!-- This is a header as navbar -->
-  <header class="container-navbar">
-    <div class=navbar>
-      <img class="img-logo" src="./images/logo.png" alt="Three Star Media Logo" width="100" height="100">
-      <a class="Home" href="#home">Home</a>
-      <a class="about" href="#about-us">About Us</a>
-      <a class="services" href="#services">Services</a>
-      <a class="team" href="#team">Team</a>
-      <a class="Contact" href="#contact">Contact</a>
-      <a class="btn-search" href="#btn"><Search></Search></a>
-    </div>
-  </header>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search" />
+            <button type="submit" aria-label="Search">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
 
-
-  <!-- This is a main as home-page -->
-  <main>
-    <section class="wrapper-main">
-      <h1>Welcome to Three Star Media</h1>
-        <img class="img-main" src="./images/main-banner.jpg" alt="home-page" width="100" height="100" >
-        <p>Three media stars is a premier digital transformation, marketing, video production, web development 
-          and print agency that produces targeted and comprehensive all in one solutions which have paved the 
-          way to success for multiple brands in the last 5 years.</p>
+    <!-- This is a main as home-page -->
+    <main>
+      <section class="wrapper-main">
+        <h1>Welcome to Three Star Media</h1>
+        <img
+          class="img-main"
+          src="./images/main-banner.jpg"
+          alt="home-page"
+          width="100"
+          height="100"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non
+          aliquid a repellendus animi minus reiciendis, explicabo ipsam in ad!
+          Nihil, nobis quis aspernatur tempore quasi fugiat et reiciendis ex?
+        </p>
         <a href="#services" class="btn-services">Connect with us</a>
+      </section>
+    </main>
+
+    <!-- This is a about-us section -->
+    <section class="container-about">
+      <h2>About Us</h2>
+      <img
+        class="img-about"
+        src="./images/about-us.jpg"
+        alt="About Us"
+        width="100"
+        height="100"
+      />
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente sunt
+        molestiae labore hic optio officia cupiditate iusto aut beatae facilis,
+        quos id ut reprehenderit magnam possimus minus consequatur autem est.
+      </p>
     </section>
-  </main>
 
-  
-  <!-- This is a about-us section -->
-  <section class="container-about" >
-    <h2>About Us</h2>
-      <img class="img-about" src="./images/about-us.jpg" alt="About Us" width="100" height="100">
-      <p>At Three Media Star, we specialize in creating comprehensive poker content for our clients. 
-        Our team of experienced writers offers in-depth guides, analysis, customized solution, and various 
-        types of content creation that cover many aspect of digital media. We prioritize staying up-to-date 
-        on the latest trends to create content that aligns with our client's business objectives. 
-        We work closely with our clients to develop a customized content strategy that enhances their online 
-        presence and helps them reach their business objectives.</p>
-  </section>
-
-
-  <!-- This is a services section -->
-  <section class="container-services" >
-    <h1>Our Services</h1>
+    <!-- This is a services section -->
+    <section class="container-services">
+      <h2>Our Services</h2>
       <div class="digital">
-        <h2>Digital Transformation</h2>
-          <img class="img-digital" src="./images/digital.jpg" alt="Digital Transformation" width="100" height="100">  
-          <p>We help businesses transition to digital platforms with ease and efficiency.</p>
-          <a class="link-digital" href="https://www.Three-Star-Media.com/html/Digital-Plans.asp">Digital Plans</a>
+        <h3>Digital Transformation</h3>
+        <img
+          class="img-digital"
+          src="./images/digital.jpg"
+          alt="Digital Transformation"
+          width="100"
+          height="100"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+          inventore nisi exercitationem. Saepe inventore ratione distinctio
+          rerum autem cumque quae culpa laboriosam, beatae iste reiciendis,
+          corporis id. Doloremque, itaque alias.
+        </p>
+        <a
+          class="link-digital"
+          href="https://www.Three-Star-Media.com/html/Digital-Plans.asp"
+          >Digital Plans</a
+        >
       </div>
-      
-      
+
       <div class="marketing">
-        <h2>Marketing Plans</h2>
-          <img class="img-marketing" src="./images/marketing.jpg" alt="Marketing Plans" width="100" height="100">  
-          <p>We help businesses expansion by a tailored marketing plan with ease and efficiency.</p>
-          <a class="link-marketing" href="https://www.Three-Star-Media.com/html/Marketing-Plans.asp">Marketing Plans</a>
+        <h3>Marketing</h3>
+        <img
+          class="img-marketing"
+          src="./images/marketing.jpg"
+          alt="Marketing Plans"
+          width="100"
+          height="100"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          natus saepe sequi! Facilis ut maiores animi officia deserunt dicta
+          natus maxime, doloribus aspernatur voluptates, error aut iusto!
+          Voluptate, sed delectus.
+        </p>
+        <a
+          class="link-marketing"
+          href="https://www.Three-Star-Media.com/html/Marketing-Plans.asp"
+          >Marketing Plans</a
+        >
       </div>
-      
-      
+
       <div class="video">
-        <h2>Video Production</h2>
-          <img class="img-video" src="./images/video.jpg" alt="Video Production" width="100" height="100">  
-          <p>We help businesses expansion by a tailored Video Production plan with ease and efficiency.</p>
-          <a class="link-video" href="https://www.Three-Star-Media.com/html/Video-Production.asp">Video Production</a>
+        <h3>Video Production</h3>
+        <img
+          class="img-video"
+          src="./images/video.jpg"
+          alt="Video Production"
+          width="100"
+          height="100"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          repellendus iste doloremque perferendis expedita molestiae totam
+          recusandae quo! Ea, odio expedita. Doloribus, quis tempora ut maiores
+          quidem dignissimos saepe et.
+        </p>
+        <a
+          class="link-video"
+          href="https://www.Three-Star-Media.com/html/Video-Production.asp"
+          >Video Plans</a
+        >
       </div>
-      
-      
+
       <div class="web">
-        <h2>Web Development</h2>
-          <img class="img-web" src="./images/web.jpg" alt="Web Development" width="100" height="100">  
-          <p>We create stunning websites that captivate audiences and drive results.</p>
-          <a class="link-web" href="https://www.Three-Star-Media.com/html/Web-Development.asp">Web Development</a>
+        <h3>Web Development</h3>
+        <img
+          class="img-web"
+          src="./images/web.jpg"
+          alt="Web Development"
+          width="100"
+          height="100"
+        />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
+          quaerat rem ducimus ipsa vero quam aliquid quos harum earum error.
+          Sunt debitis libero, similique qui doloremque quibusdam ipsum
+          molestiae maiores.
+        </p>
+        <a
+          class="link-web"
+          href="https://www.Three-Star-Media.com/html/Web-Development.asp"
+          >Web Plans</a
+        >
       </div>
-      
-      
+
       <div class="print">
-        <h2>Print</h2>
-          <img class="img-print" src="./images/print.jpg" alt="Print" width="100" height="100">  
-          <p>We provide high-quality print solutions to bring your brand to life.</p>
-          <a class="link-print" href="https://www.Three-Star-Media.com/html/Print.asp">Print</a>
+        <h3>Print</h3>
+        <img
+          class="img-print"
+          src="./images/print.jpg"
+          alt="Print"
+          width="100"
+          height="100"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet,
+          ducimus nisi reiciendis omnis incidunt, exercitationem illum dicta sed
+          officiis consectetur deleniti accusamus aspernatur aut error vero. Est
+          officiis aliquam culpa.
+        </p>
+        <a
+          class="link-print"
+          href="https://www.Three-Star-Media.com/html/Print.asp"
+          >Print Plans</a
+        >
       </div>
     </section>
 
-  <!-- This is a our vision section -->
-  <section class="wrapper-vision" >
-    <h2>Our Vision</h2>
-      <img class="img-vision" src="./images/vision.jpg" alt="Our Vision" width="100" height="100">
-      <p>To be the leading digital media agency, offering tailored media content that focuses on client targets 
-        and objectives while promoting new technologies and artificial intelligence growth. 
-        Our Core Values: Integrity, Innovation, Exclusivity and Quality.</p>
-      <a class="link-vision" href="https://www.Three-Star-Media.com/html/Our-Vision.asp">Learn More</a>
-  </section>
-
-
-
-
-  <!-- This is a team section -->
-  <section class="container-team" >
-    <h1>Our Team</h1>
-    <ul class="list">
-      <li class="john-doe">
-        <img class="img-john" src="./images/john.jpg" alt="John Doe" width="100" height="100">  
-        <h3>John Doe - CEO and Co-owner</h3>
-        <p>John is the visionary leader behind Three Star Media, with over 20 years of experience in the media 
-          industry.</p>
-      </li>
-      <li class="bob-rite">
-        <img class="bob" src="./images/bob.jpg" alt="Bob Rite" width="100" height="100">  
-        <h3>Bob Rite - CFO and Co-owner</h3>
-        <p>Bob is a marketing expert with a passion for creating innovative campaigns that drive results.</p>
-      </li>
-    </ul>
+    <!-- This is a our vision section -->
+    <section class="wrapper-vision">
+      <h2>Our Vision</h2>
+      <img
+        class="img-vision"
+        src="./images/vision.jpg"
+        alt="Our Vision"
+        width="100"
+        height="100"
+      />
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum eligendi
+        voluptatum tempora accusantium unde ut quasi corporis fuga explicabo!
+        Iure non minima, possimus quis itaque consequuntur maiores libero
+        perspiciatis modi!
+      </p>
+      <a
+        class="link-vision"
+        href="https://www.Three-Star-Media.com/html/Our-Vision.asp"
+        >Learn More</a
+      >
     </section>
 
-  
+    <!-- This is a team section -->
+    <section class="container-team">
+      <h2>Our Team</h2>
+      <ul class="list">
+        <li class="john-doe">
+          <img
+            class="img-john"
+            src="./images/john.jpg"
+            alt="John Doe"
+            width="100"
+            height="100"
+          />
+          <h3>John Doe - CEO and Co-owner</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Exercitationem voluptatem quos eaque! Blanditiis, necessitatibus
+            veniam consectetur consequatur culpa odit laborum velit similique
+            cupiditate non quidem nisi deleniti id beatae ullam.
+          </p>
+        </li>
+        <li class="bob-rite">
+          <img
+            class="bob"
+            src="./images/bob.jpg"
+            alt="Bob Rite"
+            width="100"
+            height="100"
+          />
+          <h3>Bob Rite - CFO and Co-owner</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+            ab nam alias error corporis labore reiciendis dolore dignissimos, ex
+            obcaecati recusandae modi reprehenderit sequi harum assumenda ea
+            dolorem officiis. Illum?
+          </p>
+        </li>
+      </ul>
+    </section>
+
     <!-- This is a contact-us section -->
-  <section class="container-form">
-    <h1>Contact Us</h1>
+    <section class="container-form">
+      <h2>Contact Us</h2>
       <p>Send us a message</p>
-      <form class="form" action="https://www.Three-Star-Media.com/html/Contact-Us.asp" method="post">
-        <label for="name">Full Name:</label><br>
-        <input type="text" id="name" name="name" required><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-        <label for="message">Message:</label><br>
-        <textarea class="message" id="message" name="message" rows="4" required></textarea><br>
-        <input type="submit" value="send">
+      <form
+        class="form"
+        action="https://www.Three-Star-Media.com/html/Contact-Us.asp"
+        method="post"
+      >
+        <label for="name">Full Name:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+        <label for="message">Message:</label><br />
+        <textarea
+          class="message"
+          id="message"
+          name="message"
+          rows="4"
+          required
+        ></textarea
+        ><br />
+        <input type="submit" value="send" />
       </form>
-    
-      <h2>Our Location</h2>
-      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435439.546041586!2d-77.75739814533954!3d45.35703026390612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sma!4v1764675721627!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
+
+      <!--This a Map and Hours of operation section-->
+      <h3>Location</h3>
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435439.546041586!2d-77.75739814533954!3d45.35703026390612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sma!4v1764675721627!5m2!1sen!2sma"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
       <h3>Hours of operation</h3>
       <table class="table">
         <tr>
-          <th class="days" >Days</th>
-          <th class="hours" >Hours</th>
+          <th class="days">Days</th>
+          <th class="hours">Hours</th>
         </tr>
         <tr>
-          <td class="monday" >Monday - Friday</td>
-          <td class="hours-values" >9:00 AM - 6:00 PM</td>
+          <td class="monday">Monday - Friday</td>
+          <td class="hours-values">9:00 AM - 6:00 PM</td>
         </tr>
         <tr>
           <td class="saturday">Saturday - Sunday</td>
           <td class="closed">Closed</td>
         </tr>
-      </table> 
-  </section>
+      </table>
+    </section>
 
-  
-  <!-- This is a footer section -->
-  <footer class="container-footer">
-    <p>&copy; Copyright Three Star Media,2020</p>
-    <p> All images are taken from Unsplash</p>
-    
-  </footer>
-
-</body>
+    <!-- This is a footer section -->
+    <footer class="container-footer">
+      <p>&copy; Copyright Three Star Media,2020</p>
+      <p>All images are taken from Unsplash</p>
+    </footer>
+  </body>
 </html>
