@@ -1,308 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Three Star Media</title>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <!--Custom Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    >
+
+    <!--custom css-->
+    <link href="css/main.css" rel="stylesheet" >
+    <title>Three Star Media</title>
   </head>
   <body>
-    <!-- This is a header with top navigation -->
-    <header class="container-topnav">
-      <div class="topnav">
-        <img src="./images/logo.png" alt="Three Star Media Logo" />
-        <nav class="main-nav">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-
-        <div class="search-container">
-          <form action="/action_page.php">
-            <input type="text" placeholder="Search.." name="search" />
-            <button type="submit" aria-label="Search">
-              <i class="fa fa-search" aria-hidden="true"></i>
-            </button>
-          </form>
+    <!-- Header / Navigation -->
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <img
+            src="./images/logo.png"
+            alt="Three Star Media Logo"
+            width="50"
+            height="50"
+          >
         </div>
-      </div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <form class="search-box">
+          <input
+            id="site-search"
+            type="text"
+            placeholder="Search.."
+            name="search"
+          >
+          <button type="submit"><i class="fa fa-search">&#x1F50E;</i></button>
+        </form>
+      </nav>
     </header>
 
-    <!-- This is a main as home-page -->
-    <main>
-      <section class="wrapper-main">
+    <!-- Welcome Section -->
+    <section class="hero" id="home">
+      <div class="hero-content container">
         <h1>Welcome to Three Star Media</h1>
-        <img
-          class="img-main"
-          src="./images/main-banner.jpg"
-          alt="home-page"
-          width="100"
-          height="100"
-        />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non
-          aliquid a repellendus animi minus reiciendis, explicabo ipsam in ad!
-          Nihil, nobis quis aspernatur tempore quasi fugiat et reiciendis ex?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+          molestiae excepturi obcaecati eligendi repudiandae, error dignissimos
+          quae, tempora voluptates praesentium est sint. Fuga illum id ducimus
+          ut molestiae amet at?
         </p>
-        <a href="#services" class="btn-services">Connect with us</a>
-      </section>
-    </main>
-
-    <!-- This is a about-us section -->
-    <section class="container-about">
-      <h2>About Us</h2>
-      <img
-        class="img-about"
-        src="./images/about-us.jpg"
-        alt="About Us"
-        width="100"
-        height="100"
-      />
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente sunt
-        molestiae labore hic optio officia cupiditate iusto aut beatae facilis,
-        quos id ut reprehenderit magnam possimus minus consequatur autem est.
-      </p>
-    </section>
-
-    <!-- This is a services section -->
-    <section class="container-services">
-      <h2>Our Services</h2>
-      <div class="digital">
-        <h3>Digital Transformation</h3>
-        <img
-          class="img-digital"
-          src="./images/digital.jpg"
-          alt="Digital Transformation"
-          width="100"
-          height="100"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-          inventore nisi exercitationem. Saepe inventore ratione distinctio
-          rerum autem cumque quae culpa laboriosam, beatae iste reiciendis,
-          corporis id. Doloremque, itaque alias.
-        </p>
-        <a
-          class="link-digital"
-          href="https://www.Three-Star-Media.com/html/Digital-Plans.asp"
-          >Digital Plans</a
-        >
-      </div>
-
-      <div class="marketing">
-        <h3>Marketing</h3>
-        <img
-          class="img-marketing"
-          src="./images/marketing.jpg"
-          alt="Marketing Plans"
-          width="100"
-          height="100"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          natus saepe sequi! Facilis ut maiores animi officia deserunt dicta
-          natus maxime, doloribus aspernatur voluptates, error aut iusto!
-          Voluptate, sed delectus.
-        </p>
-        <a
-          class="link-marketing"
-          href="https://www.Three-Star-Media.com/html/Marketing-Plans.asp"
-          >Marketing Plans</a
-        >
-      </div>
-
-      <div class="video">
-        <h3>Video Production</h3>
-        <img
-          class="img-video"
-          src="./images/video.jpg"
-          alt="Video Production"
-          width="100"
-          height="100"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-          repellendus iste doloremque perferendis expedita molestiae totam
-          recusandae quo! Ea, odio expedita. Doloribus, quis tempora ut maiores
-          quidem dignissimos saepe et.
-        </p>
-        <a
-          class="link-video"
-          href="https://www.Three-Star-Media.com/html/Video-Production.asp"
-          >Video Plans</a
-        >
-      </div>
-
-      <div class="web">
-        <h3>Web Development</h3>
-        <img
-          class="img-web"
-          src="./images/web.jpg"
-          alt="Web Development"
-          width="100"
-          height="100"
-        />
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
-          quaerat rem ducimus ipsa vero quam aliquid quos harum earum error.
-          Sunt debitis libero, similique qui doloremque quibusdam ipsum
-          molestiae maiores.
-        </p>
-        <a
-          class="link-web"
-          href="https://www.Three-Star-Media.com/html/Web-Development.asp"
-          >Web Plans</a
-        >
-      </div>
-
-      <div class="print">
-        <h3>Print</h3>
-        <img
-          class="img-print"
-          src="./images/print.jpg"
-          alt="Print"
-          width="100"
-          height="100"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet,
-          ducimus nisi reiciendis omnis incidunt, exercitationem illum dicta sed
-          officiis consectetur deleniti accusamus aspernatur aut error vero. Est
-          officiis aliquam culpa.
-        </p>
-        <a
-          class="link-print"
-          href="https://www.Three-Star-Media.com/html/Print.asp"
-          >Print Plans</a
-        >
+        <a href="#contact" class="btn">Connect with us ▶</a>
       </div>
     </section>
 
-    <!-- This is a our vision section -->
-    <section class="wrapper-vision">
-      <h2>Our Vision</h2>
-      <img
-        class="img-vision"
-        src="./images/vision.jpg"
-        alt="Our Vision"
-        width="100"
-        height="100"
-      />
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum eligendi
-        voluptatum tempora accusantium unde ut quasi corporis fuga explicabo!
-        Iure non minima, possimus quis itaque consequuntur maiores libero
-        perspiciatis modi!
-      </p>
-      <a
-        class="link-vision"
-        href="https://www.Three-Star-Media.com/html/Our-Vision.asp"
-        >Learn More</a
-      >
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <img src="./images/about-us.jpg" alt="About Us">
+          <div>
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+              sunt molestiae labore hic optio officia cupiditate iusto aut
+              beatae facilis, quos id ut reprehenderit magnam possimus minus
+              consequatur autem est.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+              quia sunt? Dolore mollitia placeat repudiandae in culpa odio iusto
+              id laboriosam tempore cum, hic minus, distinctio perspiciatis sed.
+              Qui, ea!
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- This is a team section -->
-    <section class="container-team">
-      <h2>Our Team</h2>
-      <ul class="list">
-        <li class="john-doe">
-          <img
-            class="img-john"
-            src="./images/john.jpg"
-            alt="John Doe"
-            width="100"
-            height="100"
-          />
-          <h3>John Doe - CEO and Co-owner</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Exercitationem voluptatem quos eaque! Blanditiis, necessitatibus
-            veniam consectetur consequatur culpa odit laborum velit similique
-            cupiditate non quidem nisi deleniti id beatae ullam.
-          </p>
-        </li>
-        <li class="bob-rite">
-          <img
-            class="bob"
-            src="./images/bob.jpg"
-            alt="Bob Rite"
-            width="100"
-            height="100"
-          />
-          <h3>Bob Rite - CFO and Co-owner</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
-            ab nam alias error corporis labore reiciendis dolore dignissimos, ex
-            obcaecati recusandae modi reprehenderit sequi harum assumenda ea
-            dolorem officiis. Illum?
-          </p>
-        </li>
-      </ul>
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+          <div class="service-card digital">
+            <img src="./images/digital.jpg" alt="Digital Transformation" >
+            <div class="service-content">
+              <h3>Digital Transformation</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+                est eos voluptates expedita tenetur ullam ratione esse quod
+                aliquidem temporibus repudiandae consequuntur dolorem maiores
+                officia, ea nesciunt animi a vero.
+              </p>
+              <a href="#" class="service-btn">Digital Plans ▶</a>
+            </div>
+          </div>
+
+          <div class="service-card marketing">
+            <img src="./images/marketing.jpg" alt="Marketing" >
+            <div class="service-content">
+              <h3>Marketing</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                est eos voluptates expedita tenetur ullam ratione esse quod
+                aliquem temporibus repudiandae consequuntur dolorem maiores
+                officia, ea nesciunt animi a vero.
+              </p>
+              <a href="#" class="service-btn">Marketing Plans ▶</a>
+            </div>
+          </div>
+
+          <div class="service-card video">
+            <img src="./images/video.jpg" alt="Video Production">
+            <div class="service-content">
+              <h3>Video Production</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+                est eos voluptates expedita tenetur ullam ratione esse quod
+                aliquem temporibus.
+              </p>
+              <a href="#" class="service-btn">Video Plans ▶</a>
+            </div>
+          </div>
+
+          <div class="service-card web">
+            <img src="./images/web.jpg" alt="Web Development" >
+            <div class="service-content">
+              <h3>Web Development</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+                est eos voluptates expedita tenetur ullam ratione esse quod
+                aliquem temporibus.
+              </p>
+              <a href="#" class="service-btn">Web Plans ▶</a>
+            </div>
+          </div>
+
+          <div class="service-card print">
+            <img src="./images/print.jpg" alt="Print" >
+            <div class="service-content">
+              <h3>Print</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+                est eos voluptates expedita tenetur ullam ratione esse quod
+                aliquem temporibus.
+              </p>
+              <a href="#" class="service-btn">Print Plans ▶</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- This is a contact-us section -->
-    <section class="container-form">
-      <h2>Contact Us</h2>
-      <p>Send us a message</p>
-      <form
-        class="form"
-        action="https://www.Three-Star-Media.com/html/Contact-Us.asp"
-        method="post"
-      >
-        <label for="name">Full Name:</label><br />
-        <input type="text" id="name" name="name" required /><br />
-        <label for="email">Email:</label><br />
-        <input type="email" id="email" name="email" required /><br />
-        <label for="message">Message:</label><br />
-        <textarea
-          class="message"
-          id="message"
-          name="message"
-          rows="4"
-          required
-        ></textarea
-        ><br />
-        <input type="submit" value="send" />
-      </form>
-
-      <!--This a Map and Hours of operation section-->
-      <h3>Location</h3>
-      <iframe
-        class="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435439.546041586!2d-77.75739814533954!3d45.35703026390612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sma!4v1764675721627!5m2!1sen!2sma"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-
-      <h3>Hours of operation</h3>
-      <table class="table">
-        <tr>
-          <th class="days">Days</th>
-          <th class="hours">Hours</th>
-        </tr>
-        <tr>
-          <td class="monday">Monday - Friday</td>
-          <td class="hours-values">9:00 AM - 6:00 PM</td>
-        </tr>
-        <tr>
-          <td class="saturday">Saturday - Sunday</td>
-          <td class="closed">Closed</td>
-        </tr>
-      </table>
+    <!-- Vision Section -->
+    <section class="vision">
+      <div class="container vision-content">
+        <h2>Our Vision</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quas
+          sed perferendis quisquam. Exercitationem consequatur sit dolore
+          sapiente est. Iste officiis vitae vero inventore itaque quas tenetur
+          voluptatem rem quo.
+        </p>
+        <a href="#" class="btn">Learn More ▶</a>
+      </div>
     </section>
 
-    <!-- This is a footer section -->
-    <footer class="container-footer">
-      <p>&copy; Copyright Three Star Media,2020</p>
-      <p>All images are taken from Unsplash</p>
+    <!-- Team Section -->
+    <section class="team" id="team">
+      <div class="container">
+        <h2>Our Team</h2>
+        <div class="team-grid">
+          <div class="team-card">
+            <img src="./images/john.jpg" alt="John Doe" >
+
+            <div class="team-info">
+              <h3>John Doe</h3>
+              <h4 class="underline">CEO and Co-owner</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+                expedita illo dolor recusandae velit earum consequuntur voluptas
+                accusantium non, tempore molestias consequatur sint dolorem
+                soluta iusto aliquid commodi inventore? Totam!
+              </p>
+            </div>
+          </div>
+          <div class="team-card">
+            <img src="./images/bob.jpg" alt="Bob Rite" >
+            <div class="team-info">
+              <h3>Bob Rite</h3>
+              <h4 class="underline">CFO and Co-owner</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                sequitur provident veritatis pariatur. Ipsum inventore natus
+                molestias quis enim fugit in quibusdam vel. Doloremque quae
+                nostrum sunt officia deleniti reprehenderit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-wrapper">
+          <div class="contact-form">
+            <h3>Send us a message</h3>
+            <form>
+              <div>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required >
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required >
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" class="btn">Send</button>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <h3>Hours of operation</h3>
+            <table class="hours-table">
+              <thead>
+                <tr>
+                  <th>Days</th>
+                  <th>Hours</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Monday - Friday</td>
+                  <td>9 AM - 6 PM</td>
+                </tr>
+                <tr>
+                  <td>Saturday - Sunday</td>
+                  <td>Closed</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="map">
+            <h3>Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15861.959621989208!2d-75.75228449959849!3d45.34831158544904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1765239577131!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; Copyright Three Star Media, 2023</p>
+        <p>
+          All images are taken from
+          <a class="unsplash" href="https://www.Unsplash.com">Unsplash</a>
+        </p>
+      </div>
     </footer>
   </body>
 </html>
